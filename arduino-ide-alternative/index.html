@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Arduino IDE alternatives</title>
+    <meta name="description" content="Arduino IDE alternatives for Atom, Eclipse, Atmel Studio, Sublime Text, Xcode and Visual Studio">
+    <meta name="keywords" content="arduino, ide, alternative, atom, eclipse, sublime text, xcode, visual studio">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Arduino IDE alternatives</h1>
+      <table class="table table-hover table-bordered text-center">
+        <thead class="thead-default text-center">
+          <tr>
+            <th>IDE or Plugin</th>
+            <th>Platform</th>
+            <th>Requirements</th>
+            <th>Library manager</th>
+            <th>Code autocompletion</th>
+            <th>Code linter</th>
+            <th>Debugger</th>
+            <th>VCS</th>
+            <th>License</th>
+            <th>Price</th>
+            <th>Open Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"><a href="https://www.arduino.cc/en/Main/Software" target="_blank">Arduino IDE</a></th>
+            <td class="success">Cross</td>
+            <td>Java VM</td>
+            <td class="warning">Yes (partially)</td>
+            <td class="danger">No</td>
+            <td class="danger">No</td>
+            <td class="danger">No</td>
+            <td class="danger">No</td>
+            <td class="success">GPL</td>
+            <td class="success">Free</td>
+            <td class="success">Yes</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="http://www.baeyens.it/eclipse/" target="_blank">Arduino for Eclipse</a></th>
+            <td class="success">Cross</td>
+            <td>Eclipse CDT, Arduino IDE 1.5.x</td>
+            <td class="danger">No</td>
+            <td class="success">Yes</td>
+            <td class="success">Yes</td>
+            <td class="danger">No</td>
+            <td class="warning">Yes (plugin)</td>
+            <td class="success">GPL</td>
+            <td class="success">Free</td>
+            <td class="success">Yes</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="https://gallery.atmel.com/Products/Details/3a0686fb-c7d3-4419-b7ff-1ef4e5ea327c" target="_blank">Arduino for Atmel Studio</a></th>
+            <td class="danger">Windows</td>
+            <td>Arduino IDE</td>
+            <td class="danger">No</td>
+            <td class="success">Yes</td>
+            <td class="success">Yes</td>
+            <td class="success">Yes</td>
+            <td class="warning">Yes (plugin)</td>
+            <td class="danger">Commercial</td>
+            <td class="success">Free</td>
+            <td class="danger">No</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="https://github.com/gepd/Deviot" target="_blank">Deviot: Arduino for Sublime Text</a></th>
+            <td class="success">Cross</td>
+            <td>SublimeText 2/3</td>
+            <td class="success">Yes</td>
+            <td class="warning">Yes (plugin)</td>
+            <td class="warning">Yes (plugin)</td>
+            <td class="danger">No</td>
+            <td class="warning">Yes (plugin)</td>
+            <td class="success">Apache</td>
+            <td class="success">Free</td>
+            <td class="success">Yes</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="http://embedxcode.weebly.com" target="_blank">embedXcode</a></th>
+            <td class="danger">Mac</td>
+            <td>Xcode</td>
+            <td class="danger">No</td>
+            <td class="success">Yes</td>
+            <td class="success">Yes</td>
+            <td class="warning">External</td>
+            <td class="success">Yes</td>
+            <td class="danger">Commercial</td>
+            <td class="warning">Free/€29 embedXcode+</td>
+            <td class="danger">No</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="http://programino.com" target="_blank">Programino IDE</a></th>
+            <td class="danger">Windows</td>
+            <td>Arduino IDE</td>
+            <td class="danger">No</td>
+            <td class="success">Yes</td>
+            <td class="danger">No</td>
+            <td class="danger">No</td>
+            <td class="danger">No</td>
+            <td class="danger">Commercial</td>
+            <td class="danger">from €29+</td>
+            <td class="danger">No</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="http://platformio.org/platformio-ide" target="_blank">PlatformIO IDE</a></th>
+            <td class="success">Cross</td>
+            <td>Python, Clang (for autocompletion)</td>
+            <td class="success">Yes</td>
+            <td class="success">Yes</td>
+            <td class="success">Yes</td>
+            <td class="danger">No</td>
+            <td class="success">Yes</td>
+            <td class="success">GPL</td>
+            <td class="success">Free</td>
+            <td class="success">Yes</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="http://visualgdb.com" target="_blank">Visual GDB</a></th>
+            <td class="danger">Windows</td>
+            <td>MS VisualStudio 2005-2015</td>
+            <td class="danger">No</td>
+            <td class="success">Yes</td>
+            <td class="success">Yes</td>
+            <td class="success">Yes</td>
+            <td class="danger">No</td>
+            <td class="danger">Commercial</td>
+            <td class="danger">Embedded $89</td>
+            <td class="danger">No</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="http://www.visualmicro.com" target="_blank">VisualMicro</a></th>
+            <td class="danger">Windows</td>
+            <td>MS VisualStudio 2012-2015/Arduino IDE installed</td>
+            <td class="success">Yes</td>
+            <td class="success">Yes</td>
+            <td class="success">Yes</td>
+            <td class="success">Yes</td>
+            <td class="success">Yes</td>
+            <td class="danger">Commercial</td>
+            <td class="warning">Free, from $29/$75 Pro</td>
+            <td class="danger">No</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
